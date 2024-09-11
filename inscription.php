@@ -25,7 +25,7 @@ try {
         $email = $_POST['email'];
 
         // Préparer la requête SQL pour insérer les données
-        $sql = "INSERT INTO utilisateurs (nom, prenom, email) VALUES (:nom, :prenom, :email)";
+        $sql = "INSERT INTO data (nom, prenom, email) VALUES (:nom, :prenom, :email)";
         $stmt = $pdo->prepare($sql);
         
         // Exécuter la requête avec les valeurs du formulaire
