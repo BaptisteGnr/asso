@@ -6,9 +6,9 @@ ini_set('display_errors', 1);
 // Informations de connexion à la base de données
 $host = '127.0.0.1';  // Adresse du serveur MySQL
 $port = '3306';       // Port par défaut de MySQL
-$dbname = 'RunBase';   // Nom de la base de données
-$user = 'root';        // Nom d'utilisateur MySQL
-$password = '';        // Mot de passe (mettre à jour si nécessaire)
+$dbname = 'Test';   // Nom de la base de données
+$user = 'asso';        // Nom d'utilisateur MySQL
+$password = 'asso';        // Mot de passe (mettre à jour si nécessaire)
 
 try {
     // Connexion à la base de données MySQL avec PDO
