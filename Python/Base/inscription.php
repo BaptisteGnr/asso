@@ -35,7 +35,7 @@ try {
             ':email' => $email,
         ]);
 
-        echo "Inscription réussie !";
+        require('merci.html')
     }
 } catch (PDOException $e) {
     // En cas d'erreur, afficher le message
