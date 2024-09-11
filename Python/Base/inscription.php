@@ -35,7 +35,7 @@ try {
             ':email' => $email,
         ]);
 
-        require('merci.html')
+        header('Location: merci.html')
     }
 } catch (PDOException $e) {
     // En cas d'erreur, afficher le message
